@@ -494,3 +494,45 @@
         /* القفز */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* منع التمرير الأفقي */
+}
+
+
+/* منع التمرير الأفقي والمسافات غير المطلوبة */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* إصلاح المشكلات المتعلقة بالأعمدة في الموبايل */
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
